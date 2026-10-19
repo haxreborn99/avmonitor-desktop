@@ -1,0 +1,12 @@
+# Exclude build artifacts 
+src/**/*.astro linguist-detectable
+node_modules/* linguist-vendored
+public/**/*.html linguist-vendored
+public/** linguist-vendored
+*.ico binary
+Cargo.lock linguist-generated
+*.yml linguist-detectable=false
+*.jpg binary
+package-lock.json linguist-generated
+* text=auto
+src/*.astro linguist-detectable
